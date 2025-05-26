@@ -3,7 +3,7 @@ Sentry is a error reporting tool
 - create a project in the website Sentry.io and copy the command to get started 
 - select options as needed, I did all defaults
 - copy the KEY into your .ENV file
-``` npx @sentry/wizard@latest -i nextjs --saas --org self-rbs --project guava-tickets ```
+``` npx @sentry/wizard@latest -i nextjs --saas --org self-rbs --project project-name ```
 
 ## NEON DB
 Neon is a DB service in the cloud with a free tier, good for testing projects
@@ -22,3 +22,8 @@ Prisma is an ORM, easy to use with Next and easy to hook up with other tools
 -- ` npx prisma generate ` 
 -- in package.json, add a post install script for when deploying ` "postinstall": "prisma generate" `
 -- prisma has a visual tool that can be run from terminal if needed and it will open on browser ` npx prisma studio `
+-- create a ` prisma.ts/js ` file with the config, see docs for it. 
+
+## SONNER
+Sonner is a toast notification package, just to have some of those around. 
+- import it in the main layout and use as needed throughout
