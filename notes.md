@@ -27,3 +27,12 @@ Prisma is an ORM, easy to use with Next and easy to hook up with other tools
 ## SONNER
 Sonner is a toast notification package, just to have some of those around. 
 - import it in the main layout and use as needed throughout
+
+## BCRYPTJS
+package to encrypt passwords
+
+## JOSE
+package for JWT
+
+## COOKIE
+package for cookies
